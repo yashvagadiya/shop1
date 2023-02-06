@@ -9,8 +9,8 @@ const authRoute = require(`./routers/authRoute`)
 
 
 
-app.use("/user",userRoute);
 app.use("/auth",authRoute);
+app.use("/user",userRoute);
 
 
 
